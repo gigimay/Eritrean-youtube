@@ -10,7 +10,7 @@
     "start": "node ./server.js",
     "watch": "nodemon ./server.js --ignore public/",
     "assets": "webpack -w --display-max-modules 0",
-    "dev": "concurrently \"npm run watch\" \"npm run assets\" --names \"💻,📦\" --prefix name"
+    "dev": "npm start\" --names \"💻,📦\" --prefix name"
   },
   "browserslist": "last 3 versions",
   "dependencies": {
